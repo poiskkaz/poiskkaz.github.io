@@ -1,14 +1,14 @@
 html {color:#000; background:#FFF;}
 body {margin:0; padding:0;}
-body {background-color:#fff; font-family: Arial, Tahoma, sans-serif; font-size:14px;
-	color:#656666;}
+body {background-color:#FFFFFA; font-family: Arial, Tahoma, sans-serif; font-size:14px;
+	color:#00000B;}
 img {border:none;}
-a{color:#004896;text-decoration:underline}
+a{color:#004899;text-decoration:underline}
 a:hover{color:#274D83;text-decoration:none}
 a:active{color:#E19200;text-decoration:underline}
 a.y,a.y:active {color:#07519A; text-decoration:underline;}
 a.y:hover  {color:#07519A; text-decoration:none;}
-#wrap {width:762px; margin: 0 auto;  }
+#wrap {width:750px; margin: 0 auto;  }
 
 #seq {padding-top:4px;color:#4B4B4B;}
 
@@ -19,10 +19,10 @@ a.y:hover  {color:#07519A; text-decoration:none;}
 
 #footer {
 	text-align:center;
-	font-size:12px;
-	color:#656666;
+	font-size:14px;
+	color:#;
 	padding:20px;
-	padding-top:10px
+	padding-top:20px
 }
 
 ul.tab2{
