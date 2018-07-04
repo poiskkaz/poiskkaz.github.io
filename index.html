@@ -30,36 +30,60 @@
 
 </div><br><br>
 
+<ul class="tab2" id="tab2">
+<div id="glob">
+<div id='stz'>
+ <li class="active" id="web">
+ 
+
+ <a href="#" onClick="ts2('web');return false;"><b class="rx"></b>Веб<b class="ra"></b></a></li>
+ <li id="images"><a href="#" onClick="ts2('images');return false;" ><b class="rx"></b>Картинки<b class="ra2"></b></a></li>
+ <li id="video"><a  href="#" onClick="ts2('video');return false;"><b class="rx"></b>Видео<b class="ra3"></b></a></li>
+ <li id="news"><a  href="#" onClick="ts2('news');return false;"><b class="rx"></b>Новости<b class="ra4"></b></a></li>
+ <li id="blogs"><a  href="#" onClick="ts2('blogs');return false;"><b class="rx"></b>Блоги<b class="ra5"></b></a></li>
+</div>
+<div style="position:absolute;margin-left:500px;"><a href="#" target="_self" style='border:0px;' onClick="alert('Казахский язык скоро будет доступен!');return false"><img src="k.png" width=18 height=14 style="margin-bottom:-3px;margin-right:1px;" /> қазақша</a></div>
+ </div>
+ 
+ 
+</ul>
+
 
 <div id="rounded-box-3">
-   <script>
-  (function() {
-    var cx = '005321664713073285919:gn9alfare9e';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search></div>
+    <b class="r1"></b>
+    <div class="inner-box">
    
+   <div id="options">&nbsp;<input type="checkbox" id="oscroll" value="0" onClick="set_opt('oscroll');" > автоскролл страницы<br />
+&nbsp;<input type="checkbox" id="odebug" value="0" onClick="set_opt('odebug');"> подсказки набора<div align=right style='padding-top:2px'>
+ 
+  <a href='#' style='font-size:11px;color:#9A9A9A;' onClick="shown('options');return false;">скрыть</a></div></div>
    
-  <div style="display:none"><div id="seq" align="center">
+   <div id="pol">
+    <table width="100%" height="90" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+
+      <td><form name="form" action="#" onSubmit="search();return false;" style="margin:0;">
+<input type="hidden" id="type" name="type" value="web" />
+
+
+					<input type="text" id="q" name="q" value="" autocomplete="off" /> 
 					
-  <script>
-  (function() {
-    var cx = '005321664713073285919:gn9alfare9e';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:searchresults-only></gcse:searchresults-only>
+				<ul id="debug" class="debug" style="display:none;" onMouseOver="rep()"></ul>	
+					
+
+					
+</td>
+    </tr>
+  </table>
+  <div style="display:none"><div id="seq" align=center>
+					
+  <input type="radio" name="ste" value="ym" onChange="im(this.value)" onClick="im(this.value)" checked> <span id="pp">Умный</span>
+					<input type="radio" id="gq" name="ste" value="google" onChange="im(this.value)" onClick="im(this.value)"> <span id="pp">Google</span>
+					<input type="radio" name="ste" value="yandex" onChange="im(this.value)" onClick="im(this.value)"> <span id="pp">Яндекс</span>
+					
+					<input type="radio" name="ste" value="bing" onChange="im(this.value)" onClick="im(this.value)"> <span id="pp">Bing</span></div>
+				</div>
+  <input type="submit" id="x" value="   " />
 </div>
     </div>
     <b class="r1"></b>
